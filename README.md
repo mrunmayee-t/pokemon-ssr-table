@@ -18,7 +18,7 @@ A React application built with Next.js for server-side rendering (SSR) that disp
 - Pagination for the main Pokémon table
 - Filtering by exact Pokémon name (also SSR)
 - Modal with Pokémon details (fetched on-demand)
-- Paginated evolution trigger table (not linked to selected Pokémon and used #TanStack Pagination)
+- Paginated evolution trigger table (not linked to selected Pokémon and used TanStack Pagination)
 
 ---
 
@@ -75,7 +75,7 @@ npm run dev
 
 ## 📋 Assumptions & Notes
 
-- Filtering is done server-side by exact Pokémon name using api/v2/pokemon/{name}
+- Filtering is done server-side by exact Pokémon name using **api/v2/pokemon/{name}**
 - Evolution trigger data is fetched separately and not tied to selected Pokémon
 - No global state management used (basic local state and props only)
 
