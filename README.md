@@ -2,13 +2,9 @@
 
 # Pokémon SSR Table - PokéAPI with Next.js
 
-This is a React application using **Next.js** to implement **Server-Side Rendering (SSR)** with data from the [PokéAPI](https://pokeapi.co/). It displays a **paginated**, **filterable table** of Pokémon. Clicking a row opens a **modal** with detailed information about the selected Pokémon. The second paginated table of evolution triggers is also included.
-
----
-
 ## 📝 Project Description
 
-A React application built with Next.js for server-side rendering (SSR) that displays a paginated and filterable table of Pokémon fetched from the PokéAPI. Clicking a Pokémon row opens a modal with detailed information and second paginated table showing evolution triggers.
+This is a React application using **Next.js** to implement **Server-Side Rendering (SSR)** with data from the [PokéAPI](https://pokeapi.co/). It displays a **paginated**, **filterable table** of Pokémon. Clicking a row opens a **modal** with detailed information about the selected Pokémon. The second paginated table of evolution triggers is also included.
 
 ---
 
