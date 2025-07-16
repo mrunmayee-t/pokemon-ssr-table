@@ -81,14 +81,14 @@ npm run dev
 
 ---
 
-##🚀 Live Demo
+## 🚀 Live Demo
 The application is deployed and can be accessed here:
 
 [🔗 View Live on Vercel](https://pokemon-ssr-table.vercel.app/)
 
 ---
 
-##🧠 If I Had More Time
+## 🧠 If I Had More Time
 If given more time, I would consider:
 
 - 🔄 Adding client-side caching (React Query or SWR)
