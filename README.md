@@ -97,4 +97,3 @@ If given more time, I would consider:
 
 - 📱 Full responsive and accessible UI
 
----
