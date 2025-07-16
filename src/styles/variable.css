@@ -1,0 +1,10 @@
+:root {
+  --primary-text-border: #a0aec0;
+  --primary-button: #a7d129;
+  --primary-url: #4a90e2;
+  --primary-table-header-bg: #4a91e28f;
+  --primary-table-background: #f7f3e9;
+  --primary-headings: #2d3748;
+  --primary-active-state: #f56c6c;
+  --primary-active-state-hover: #f56c6c8f;
+}
