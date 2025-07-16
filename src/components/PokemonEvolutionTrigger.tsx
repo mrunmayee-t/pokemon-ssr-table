@@ -98,7 +98,7 @@ const PokemonEvolutionTrigger: React.FC<PokemonTableProps> = ({
           {table.getRowModel().rows.map((row) => (
             <tr
               key={row.id}
-              className="text-center text-[var(--primary-headings)] cursor-pointer hover:bg-[var(--primary-active-state-hover)]"
+              className="text-center text-[var(--primary-headings)]  hover:bg-[var(--primary-active-state-hover)]"
             >
               {row.getVisibleCells().map((cell) => (
                 <td

@@ -34,14 +34,41 @@ A React application built with Next.js for server-side rendering (SSR) that disp
 
 ## 📦 Installation
 
-git clone https://github.com/mrunmayee-t/pokemon-ssr-table.git
-cd pokemon-ssr-table
-npm install
+-git clone https://github.com/mrunmayee-t/pokemon-ssr-table.git
+-cd pokemon-ssr-table
+-npm install
 
 ---
 
 ## 🧪 Running Locally
 
 npm run dev
+
+---
+
+## ⚙️ Project Structure
+
+/pages/
+└── index.tsx → Main page with Pokémon table
+/components/
+├── PokemonTable.tsx → SSR Pokémon table with pagination and filter
+├── PokemonModal.tsx → Modal with Pokémon details
+└── EvolutionTable.tsx → Evolution trigger table
+/services/
+├── pokemonAPI.ts → APIs to get the list of all Pokémon and to get the details of searched Pokémon
+├── evolutionTriggerAPI.ts → API to get Evolution Triggers
+/styles/
+├── global.css → contains the global css
+├── variable.css → defines the colors used
+/types/
+├── pokemon.ts → definition of types and interfaces used
+
+---
+
+## 📋 Assumptions & Notes
+
+-Filtering is done server-side by exact Pokémon name using api/v2/pokemon/{name}
+-Evolution trigger data is fetched separately and not tied to selected Pokémon
+-No global state management used (basic local state and props only)
 
 ---
