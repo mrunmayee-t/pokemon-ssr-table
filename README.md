@@ -34,9 +34,9 @@ A React application built with Next.js for server-side rendering (SSR) that disp
 
 ## 📦 Installation
 
--git clone https://github.com/mrunmayee-t/pokemon-ssr-table.git
--cd pokemon-ssr-table
--npm install
+- git clone https://github.com/mrunmayee-t/pokemon-ssr-table.git
+- cd pokemon-ssr-table
+- npm install
 
 ---
 
@@ -75,8 +75,30 @@ npm run dev
 
 ## 📋 Assumptions & Notes
 
--Filtering is done server-side by exact Pokémon name using api/v2/pokemon/{name}
--Evolution trigger data is fetched separately and not tied to selected Pokémon
--No global state management used (basic local state and props only)
+- Filtering is done server-side by exact Pokémon name using api/v2/pokemon/{name}
+- Evolution trigger data is fetched separately and not tied to selected Pokémon
+- No global state management used (basic local state and props only)
+
+---
+
+##🚀 Live Demo
+The application is deployed and can be accessed here:
+
+[🔗 View Live on Vercel](https://pokemon-ssr-table.vercel.app/)
+
+---
+
+##🧠 If I Had More Time
+If given more time, I would consider:
+
+- 🔄 Adding client-side caching (React Query or SWR)
+
+- 🔍 Fuzzy search with local filter fallback
+
+- 🧪 Unit, integration and E2E tests (Jest + React Testing Library+Playwright)
+
+- 🧭 Better error handling and loading states (spinner or "Loading..." message)
+
+- 📱 Full responsive and accessible UI
 
 ---
