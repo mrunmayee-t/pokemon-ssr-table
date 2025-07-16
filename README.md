@@ -24,7 +24,7 @@ This is a React application using **Next.js** to implement **Server-Side Renderi
 - Next.js (SSR)
 - TanStack Table (for table rendering and pagination)
 - PokéAPI (https://pokeapi.co/)
-- Tailwind CSS / CSS Modules (or your chosen styling method)
+- Tailwind CSS
 
 ---
 
