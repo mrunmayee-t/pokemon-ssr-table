@@ -48,20 +48,28 @@ npm run dev
 
 ## ⚙️ Project Structure
 
-/pages/
-└── index.tsx → Main page with Pokémon table
-/components/
-├── PokemonTable.tsx → SSR Pokémon table with pagination and filter
-├── PokemonModal.tsx → Modal with Pokémon details
-└── EvolutionTable.tsx → Evolution trigger table
-/services/
-├── pokemonAPI.ts → APIs to get the list of all Pokémon and to get the details of searched Pokémon
-├── evolutionTriggerAPI.ts → API to get Evolution Triggers
-/styles/
-├── global.css → contains the global css
-├── variable.css → defines the colors used
-/types/
-├── pokemon.ts → definition of types and interfaces used
+```plaintext
+/project-root
+├── pages/
+│   └── index.tsx                  # Main page with Pokémon table
+│
+├── components/
+│   ├── PokemonTable.tsx          # SSR Pokémon table with pagination and filter
+│   ├── PokemonModal.tsx          # Modal with Pokémon details
+│   └── EvolutionTable.tsx        # Evolution trigger table
+│
+├── services/
+│   ├── pokemonAPI.ts             # APIs to get Pokémon list and details
+│   └── evolutionTriggerAPI.ts    # API to get Evolution Triggers
+│
+├── styles/
+│   ├── global.css                # Global CSS styles
+│   └── variable.css              # Color definitions
+│
+├── types/
+│   └── pokemon.ts                # TypeScript interfaces and types
+
+```
 
 ---
 
